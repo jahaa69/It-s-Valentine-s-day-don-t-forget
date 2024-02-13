@@ -1,6 +1,8 @@
 const b1 = document.getElementById('b1');
 const b2 = document.getElementById('b2');
 const body = document.querySelector("body");
+const image = "image.gif";
+
 
 b2.addEventListener('click', () => {
     const title = document.querySelector("h1");
@@ -34,7 +36,7 @@ function delltitle() {
     var title = document.querySelector("h1");
     let img = document.createElement("img");
     title.innerText = "";
-    img.src = "gif.gif";
+    img.src = image;
     title.appendChild(img);
 }
 
